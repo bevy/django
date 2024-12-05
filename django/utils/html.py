@@ -9,7 +9,6 @@ from urllib.parse import (
 )
 
 from django.core.exceptions import SuspiciousOperation
-from django.utils.deprecation import RemovedInDjango60Warning
 from django.utils.encoding import punycode
 from django.utils.functional import Promise, keep_lazy, keep_lazy_text
 from django.utils.http import RFC3986_GENDELIMS, RFC3986_SUBDELIMS
